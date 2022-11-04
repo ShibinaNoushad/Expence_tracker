@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form id="addform">
+        <label for="expense_amount">Enter Expense Amount</label>
+  <input type="text" id="expense_amount" name="expenseAmount" required>
+  <label for="description">Description</label>
+  <input type="text" id="description" name="description" required>
+  <label for="category">Choose a category:</label>
+  <select id="category" name="category" >
+    <option value="movie">Movie</option>
+    <option value="Food">Food</option>
+    <option value="fuel">Fuel</option>
+    <option value="ticket">Ticket</option>
+    <option value="ticket">Books</option>
+  </select>
+  <input type="submit" id="add_expense" value="Add expences">
+    <ul id="users"></ul>
+
+    </form>
+</body>
+<script src="expense_tracker.js"></script>
+</html>
